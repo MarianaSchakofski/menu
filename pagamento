@@ -1,0 +1,19 @@
+if(ve==304){
+         printf("produto d- R$25.00");
+         printf("\nquantos produtos você quer?");
+         scanf("%d", &quantidade);
+         mul= quantidade * preco_d;
+         printf("Preco com desconto %f", mul);
+         //printf("multiplicaçao");
+         //printf("%d", multi);
+            printf("\n1-dinheiro\n");
+            printf("\n2-cartao\n");
+            printf("\n3-cancelar compra\n");
+            printf("qual a forma de pagamento?");
+            scanf("%d", &escolha_pagamento);
+            
+            switch(escolha_pagamento)
+            case 1:
+            preco_final= preco_d * (75.00/100.00);
+            printf(" %.2f", preco_final);
+            
