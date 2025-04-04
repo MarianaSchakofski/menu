@@ -328,3 +328,15 @@ int vendas(int ve){
     return 0;
     
 }
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+int main(){
+   
+   int n;
+   printf("digite o tento de produto que tem");
+   scanf("%d" , &n);
+   int v[n];
+   
+   for(int i=0 ; i<n; i++){
+      printf("digite o %d° valor:" , i+1);
+      scanf("%d" , &v[i]);
+   }
